@@ -46,10 +46,17 @@ h1 {
     font-size: 50px;
     color: white;
 }
+h2 {
+    font-size: 30px;
+}
 nav {
     font-family: 'Roboto';
     font-size: 20px;
     margin-left: 20px;
+    padding-top: 0px;
+}
+nav ul{
+    list-style-type: square;
 }
 footer {
     background-color: #e48762;
