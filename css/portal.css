@@ -8,9 +8,7 @@ body {
     max-width: 700px;
     margin: auto;
 }
-header {
-    
-}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -57,4 +55,10 @@ footer {
     background-color: #e48762;
     text-align: center;
     border-radius: 10px;
+}
+p {
+    color: white;
+}
+#dateUpdated {
+    color: white;
 }
