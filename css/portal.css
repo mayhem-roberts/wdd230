@@ -29,7 +29,9 @@ body {
 .profile {
     grid-column: 3/4;
     grid-row: 1/4;
-    margin: 20%;
+    justify-self: end;
+    margin-top: 10%;
+    margin-right: 5%;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 .heading-2 {
