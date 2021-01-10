@@ -5,7 +5,7 @@ body {
     font-family: 'Oswald', 'Roboto'; 
 }
 #content {
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -17,15 +17,14 @@ body {
 .box {
     grid-column: 1/ -1;
     grid-row: 1/3;
-    background-color: #D15523;
+    background-color: #C04E21;
     height: 75%;
     border-radius: 10px;
 }
 .heading-1 {
     grid-column: 1/ -1;
     grid-row: 1/3;
-    align-self: flex-start;
-    margin-left: 15%;
+    margin-left: 24%;
 }
 .profile {
     grid-column: 3/4;
@@ -46,7 +45,7 @@ body {
 
 h1 {
     font-family: 'Oswald';
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: white;
 }
 h2 {
@@ -62,20 +61,20 @@ nav ul{
     list-style-type: square;
 }
 footer {
-    background-color: #D15523;
+    background-color: #E48762;
     text-align: center;
     border-radius: 10px;
 }
 footer a {
-    color: white;
+    color: black;
 }
 p {
-    color: white;
+    color: black;
     padding-top: 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 #dateUpdated {
-    color: white;
+    color: black;
     padding-bottom: 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
