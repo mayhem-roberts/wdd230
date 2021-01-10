@@ -56,6 +56,9 @@ footer {
     text-align: center;
     border-radius: 10px;
 }
+footer a {
+    color: white;
+}
 p {
     color: white;
 }
