@@ -8,7 +8,7 @@ body {
     margin: auto;
 }
 h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-family: 'Oswald', 'sans-serif';
     color: white;
 }
@@ -30,7 +30,7 @@ h2 {
 .heading-1 {
     grid-column: 1/3;
     grid-row: 1/4;
-    justify-self: center;
+    justify-self: flex-end;
 }
 .profile {
     grid-column: 3/4;
