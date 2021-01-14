@@ -1,0 +1,12 @@
+header {
+    background-color: palevioletred;
+}
+nav {
+    float: right;
+}
+nav a {
+    text-decoration: none;
+}
+footer{
+    background-color: palevioletred;
+}
