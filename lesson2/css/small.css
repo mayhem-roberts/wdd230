@@ -1,9 +1,6 @@
 header {
     background-color: palevioletred;
 }
-nav {
-    float: right;
-}
 nav a {
     text-decoration: none;
 }
