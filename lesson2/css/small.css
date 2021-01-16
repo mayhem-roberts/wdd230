@@ -1,15 +1,39 @@
-header {
-    background-color: palevioletred;
+/*Phone veiw*/
+body {
+    max-width: 760em;
+    margin: auto;
+    background-color: black;
 }
+header {
+    text-align: center;
+    border: 5px solid palevioletred;
+    border-radius: 25px;
+    margin: 5px;
+}
+header h1, h2 {
+    color: white;
+}
+
 nav a {
     text-decoration: none;
 }
 main {
     display: grid;
-}
-section {
     grid-template-columns: 1fr;
 }
-footer{
-    background-color: palevioletred;
+section {
+    background-color: white;
+    border: 5px solid palevioletred;
+    border-radius: 25px;
+    margin: 5px;
+}
+footer {
+    text-align: center;
+    border: 5px solid palevioletred;
+    border-radius: 25px;
+    margin: 5px;
+}
+footer p{
+    color: white;
+    
 }
