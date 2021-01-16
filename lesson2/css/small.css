@@ -4,6 +4,12 @@ header {
 nav a {
     text-decoration: none;
 }
+main {
+    display: grid;
+}
+section {
+    grid-template-columns: 1fr;
+}
 footer{
     background-color: palevioletred;
 }
