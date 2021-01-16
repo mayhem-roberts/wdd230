@@ -12,7 +12,7 @@ header {
     padding: 10px;
 }
 header h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 header h2{
     font-size: 2rem;
@@ -57,14 +57,19 @@ footer {
     margin: 30px 10px;
     padding: 10px;
 }
-footer p, footer a {
+footer p {
     color: black;
+    font-family: 'Quattrocento';
+    font-size: 1rem;
+}
+footer a {
+    color: #2EB254;
     font-family: 'Quattrocento';
     font-size: 1rem;
 }
 h1, h3 {
     font-family: 'Merienda';
-    color: black;
+    color: #2EB254;
     font-size: 1.5rem;
 }
 h2, h4 {
