@@ -35,6 +35,7 @@ section img {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
     display: block;
     margin: auto;
+    margin-top: 10px;
     width: 100%;
     height: auto;
 }
@@ -45,11 +46,17 @@ section h3 {
     border-bottom: 3px solid gray;
     padding: 20px 0px;
 }
-section h4, section a, section p {
+section h4, section a{
     display: block;
     margin: auto;
     max-width: 440px;
     padding: 5px 0px;
+}
+section p {
+    display: block;
+    margin: auto;
+    max-width: 440px;
+    padding: 20px 0px;
 }
 footer {
     text-align: center;
