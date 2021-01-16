@@ -36,6 +36,19 @@ section img {
     display: block;
     margin: auto;
 }
+section h3 {
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    border-bottom: 3px solid gray;
+    padding: 10px 0px;
+}
+section h4, section a, section p {
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    padding: 5px 0px;
+}
 footer {
     text-align: center;
     border-top: 3px solid gray;
