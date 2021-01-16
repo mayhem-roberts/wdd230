@@ -1,4 +1,5 @@
 /*Phone veiw*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Open+Sans&family=Quattrocento&display=swap');
 body {
     max-width: 760em;
     margin: auto;
@@ -6,11 +7,20 @@ body {
 }
 header {
     text-align: center;
-    border: 3px solid gray;
-    border-radius: 25px;
-    margin: 5px;
+    border-bottom: 3px solid gray;
+    margin: 30px 10px;
+    padding: 10px;
 }
-header h1, h2 {
+h1, h3 {
+    font-family: 'Merienda';
+    color: black;
+}
+h2, h4 {
+    font-family: 'Quattrocento';
+    color: black;
+}
+p, a{
+    font-family: 'Open Sans';
     color: black;
 }
 nav a {
@@ -24,7 +34,8 @@ section {
     background-color: white;
     border: 3px solid gray;
     border-radius: 25px;
-    margin: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 section img {
     display: block;
@@ -32,9 +43,9 @@ section img {
 }
 footer {
     text-align: center;
-    border: 3px solid gray;
-    border-radius: 25px;
-    margin: 5px;
+    border-top: 3px solid gray;
+    margin: 30px 10px;
+    padding: 10px;
 }
 footer p{
     color: black;
