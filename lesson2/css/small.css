@@ -2,18 +2,17 @@
 body {
     max-width: 760em;
     margin: auto;
-    background-color: black;
+    background-color: white;
 }
 header {
     text-align: center;
-    border: 5px solid palevioletred;
+    border: 3px solid gray;
     border-radius: 25px;
     margin: 5px;
 }
 header h1, h2 {
-    color: white;
+    color: black;
 }
-
 nav a {
     text-decoration: none;
 }
@@ -23,13 +22,17 @@ main {
 }
 section {
     background-color: white;
-    border: 5px solid palevioletred;
+    border: 3px solid gray;
     border-radius: 25px;
     margin: 5px;
 }
+section img {
+    display: block;
+    margin: auto;
+}
 footer {
     text-align: center;
-    border: 5px solid palevioletred;
+    border: 3px solid gray;
     border-radius: 25px;
     margin: 5px;
 }
