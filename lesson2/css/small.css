@@ -28,25 +28,27 @@ section {
     background-color: white;
     border: 3px solid gray;
     border-radius: 25px;
-    margin: 10px;
-    padding: 10px;
+    margin: 15px;
+    padding: 15px;
 }
 section img {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
     display: block;
     margin: auto;
+    width: 100%;
+    height: auto;
 }
 section h3 {
     display: block;
     margin: auto;
-    max-width: 400px;
+    max-width: 440px;
     border-bottom: 3px solid gray;
     padding: 20px 0px;
 }
 section h4, section a, section p {
     display: block;
     margin: auto;
-    max-width: 400px;
+    max-width: 440px;
     padding: 5px 0px;
 }
 footer {
