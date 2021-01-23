@@ -14,7 +14,6 @@ header section {
 header section h1 {
     grid-column: 1/3;
     align-self: center;
-    font-family: 'Sedgwick Ave';
     font-size: 3rem;
 }
 header section img {
@@ -27,6 +26,7 @@ header section img {
 nav {
     background-color: white;
     text-align: center;
+    border-bottom: 4px solid  #fde549;
 }
 nav ul {
     list-style-type: none;
@@ -44,4 +44,16 @@ main{
 footer{
     background-color: #fde549;
     text-align: center;
+}
+h1 {
+    font-family: 'Sedgwick Ave';
+}
+h2 {
+    font-family: 'Raleway';
+}
+p, a {
+    font-family: 'Montserrat';
+}
+#dateUpdated {
+    font-family: 'Montserrat';
 }

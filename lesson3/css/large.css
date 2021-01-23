@@ -5,4 +5,7 @@
     nav ul li {
         flex: 0 1 100%;
     }
+    header section h1{
+        font-size: 6.5rem;
+    }
 }
