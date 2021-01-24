@@ -1,9 +1,7 @@
 @media (min-width: 32.5em) {
     nav ul {
         display: flex;
-    }
-    nav ul li {
-        flex: 0 1 100%;
+        justify-content: space-between;
     }
     header section h1{
         font-size: 5rem;
