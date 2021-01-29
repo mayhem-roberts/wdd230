@@ -1,0 +1,7 @@
+#mainHeader {
+    display: flex;
+    align-items: center;
+}
+#mainHeader img {
+    max-width: 200px;
+}
