@@ -3,6 +3,9 @@
         display: flex;
     }
     nav ul li {
-        flex: 1 1 100%;
+        flex: 1 1 auto;
     }
+    .navigation li:first-child {
+		display: none;
+	}
 }

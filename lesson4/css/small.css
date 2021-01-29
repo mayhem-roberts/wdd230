@@ -1,7 +1,20 @@
-#mainHeader {
+.mainHeader {
     display: flex;
     align-items: center;
 }
-#mainHeader img {
+.mainHeader img {
     max-width: 200px;
+}
+nav {
+    text-align: center;
+}
+.navigation {
+    margin: 0;
+    padding: 0;
+}
+.navigation li {
+    list-style-type: none;
+}
+.navigation a {
+    text-decoration: none;
 }

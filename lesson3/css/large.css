@@ -1,8 +1,4 @@
 @media (min-width: 60rem) {
-    nav ul {
-        display: flex;
-        justify-content: space-between;
-    }
     header section h1{
         font-size: 6.5rem;
     }
