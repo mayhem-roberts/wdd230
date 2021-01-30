@@ -22,6 +22,9 @@ header img {
 #heading {
     margin-left: 2.5rem;
 }
+#moto {
+    font-family: 'Montserrat';
+}
 
 /*navigation*/
 nav {
