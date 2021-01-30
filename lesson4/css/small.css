@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat&family=Raleway:wght@500&display=swap');
 .mainHeader {
     display: flex;
     align-items: center;
@@ -7,14 +8,29 @@
 }
 nav {
     text-align: center;
+    background-color: #23583a;
+    font-family: 'Raleway';
 }
-.navigation {
-    margin: 0;
-    padding: 0;
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
 }
-.navigation li {
+nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-.navigation a {
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
     text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
+nav ul li.active a {background-color: rgba(0, 0, 0, 0.2); color: #fff;}
+
+nav ul li a:hover { background-color: rgba(0, 0, 0, 0.4);}
+
+nav ul.hide {display: none;}

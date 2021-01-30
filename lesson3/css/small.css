@@ -27,12 +27,11 @@ header section img {
 nav {
     text-align: center;
     background-color:  #23583a;
-    padding: 0;
-    margin: 0;
 }
 nav ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 0;
+    margin: 0;
 }
 nav ul li {
     display: block;
@@ -42,6 +41,10 @@ nav ul li a {
     text-decoration: none;
     font-size: 2rem;
     color: #ffe0d6;
+}
+nav ul li a:hover {
+    background-color: #ffe0d6;
+    color: black;
 }
 main {
     margin: 25px;
@@ -67,10 +70,6 @@ h2, h3, h4, h5, h6 {
 p, a {
     font-family: 'Montserrat';
     font-size: 1.3rem;
-}
-a:hover {
-    background-color: #ffe0d6;
-    color: black;
 }
 #dateUpdated {
     font-family: 'Montserrat';

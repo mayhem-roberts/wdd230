@@ -1,11 +1,13 @@
 @media (min-width: 32.5em) {
+    nav button {
+        display: none;
+    }
     nav ul {
         display: flex;
     }
     nav ul li {
         flex: 1 1 auto;
     }
-    .navigation li:first-child {
-		display: none;
-	}
+    nav ul.hide {
+        display: flex;}
 }
