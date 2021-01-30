@@ -86,7 +86,7 @@ footer{
     border-radius: 1rem;
 }
 footer p {
-    padding-top: 1rem;
+    padding-top: .5rem;
 }
 footer a {
     text-decoration: none;
@@ -94,7 +94,7 @@ footer a {
 }
 #currentDate {
     font-family: 'Montserrat';
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
 }
 /*fonts and text css*/
 h1 {
