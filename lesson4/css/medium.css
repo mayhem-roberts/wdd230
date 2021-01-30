@@ -1,4 +1,5 @@
-@media (min-width: 32.5em) {
+@media (min-width: 36em) {
+
     nav button {
         display: none;
     }
@@ -13,7 +14,7 @@
     }
 
     header img {
-        max-width: 300px;
+        max-width: 250px;
     }
 /*fonts*/
     h1 {

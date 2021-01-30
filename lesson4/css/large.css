@@ -1,4 +1,7 @@
 @media (min-width: 60rem) {
+    header img {
+        max-width: 300px;
+    }
     /*fonts*/
     h1 {
         font-size: 7rem;

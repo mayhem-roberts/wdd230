@@ -2,7 +2,7 @@
 body {
     max-width: 1250px;
     margin: auto;
-    background-color: white;
+    background-color: seashell;
 }
 header {
     margin: 1rem 0;
@@ -10,15 +10,17 @@ header {
 .mainHeader {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 header img {
     max-width: 175px;
     width: 100%;
     height: auto;
-    border: 4px solid #d78c47;
+    background-color: #d78c47;
+    border-radius: 100%;
 }
 #heading {
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
 }
 
 /*navigation*/
@@ -27,6 +29,7 @@ nav {
     background-color: #23583a;
     font-family: 'Raleway';
     margin-top: 1rem;
+    border-radius: 1rem;
 }
 nav button {
     background-color: transparent;
@@ -52,7 +55,9 @@ nav ul li.active a {
 }
 
 nav ul li a:hover { 
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #d78c47;
+    color: black;
+    border-radius: 1rem;
 }
 
 nav ul.hide {
@@ -67,6 +72,7 @@ main section {
     background-color: #ffe0d6;
     padding: 1rem;
     margin: 1rem 0;
+    border-radius: 1rem;
 }
 
 /*footer*/
@@ -74,10 +80,18 @@ footer{
     text-align: center;
     background-color: #23583a;
     color: #ffe0d6;
+    border-radius: 1rem;
+}
+footer p {
+    padding-top: 1rem;
 }
 footer a {
     text-decoration: none;
     color: #ffe0d6;
+}
+#currentDate {
+    font-family: 'Montserrat';
+    padding-bottom: 1rem;
 }
 /*fonts and text css*/
 h1 {
@@ -90,8 +104,4 @@ h2, h3, h4, h5, h6 {
 p, a {
     font-family: 'Montserrat';
     font-size: 1.3rem;
-}
-/*css for java script*/
-#currentDate {
-    font-family: 'Montserrat';
 }
