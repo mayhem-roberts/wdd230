@@ -27,6 +27,7 @@ header section img {
 nav {
     text-align: center;
     background-color:  #23583a;
+    padding-top: 20px;
 }
 nav ul {
     list-style-type: none;

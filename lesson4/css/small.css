@@ -1,21 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat&family=Raleway:wght@500&display=swap');
+body {
+    max-width: 1250px;
+    margin: auto;
+    background-color: white;
+}
+header {
+    margin: 1rem 0;
+}
 .mainHeader {
     display: flex;
     align-items: center;
 }
-.mainHeader img {
-    max-width: 200px;
+header img {
+    max-width: 175px;
+    width: 100%;
+    height: auto;
+    border: 4px solid #d78c47;
 }
+#heading {
+    margin-left: 1.5rem;
+}
+
+/*navigation*/
 nav {
     text-align: center;
     background-color: #23583a;
     font-family: 'Raleway';
+    margin-top: 1rem;
 }
 nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: white;
+    color: #ffe0d6;
 }
 nav ul {
     list-style-type: none;
@@ -26,11 +43,55 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: white;
+    color: #ffe0d6;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-nav ul li.active a {background-color: rgba(0, 0, 0, 0.2); color: #fff;}
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: #fff;
+}
 
-nav ul li a:hover { background-color: rgba(0, 0, 0, 0.4);}
+nav ul li a:hover { 
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
-nav ul.hide {display: none;}
+nav ul.hide {
+    display: none;
+}
+
+/*main conyent*/
+main {
+    text-align: center;
+}
+main section {
+    background-color: #ffe0d6;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    background-color: #23583a;
+    color: #ffe0d6;
+}
+footer a {
+    text-decoration: none;
+    color: #ffe0d6;
+}
+/*fonts and text css*/
+h1 {
+    font-family: 'Concert One';
+    font-size: 4rem;
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Raleway';
+}
+p, a {
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+}
+/*css for java script*/
+#currentDate {
+    font-family: 'Montserrat';
+}
