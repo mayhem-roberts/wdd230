@@ -3,6 +3,7 @@ body {
     max-width: 1250px;
     margin: auto;
     background-color: seashell;
+    padding: 1rem;
 }
 header {
     margin: 1rem 0;
