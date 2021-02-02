@@ -1,0 +1,25 @@
+@media (min-width: 45em) {
+
+    nav button {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 auto;
+    }
+    nav ul.hide {
+        display: flex;
+    }
+
+    header img {
+        max-width: 150px;
+    }
+/*fonts*/
+    h1 {
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+    }
+}
