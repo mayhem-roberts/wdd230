@@ -8,6 +8,12 @@ body {
 header {
     margin: 1rem 0;
 }
+#pancakes {
+    text-align: center;
+    background-color:  #ffe0d6;
+    height: 15vh;
+    border-radius: 1rem;
+}
 .mainHeader {
     display: flex;
     align-items: center;
