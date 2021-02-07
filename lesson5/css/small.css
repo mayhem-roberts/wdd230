@@ -8,12 +8,6 @@ body {
 header {
     margin: 1rem 0;
 }
-#pancakes {
-    text-align: center;
-    background-color:  #ffe0d6;
-    height: 15vh;
-    border-radius: 1rem;
-}
 .mainHeader {
     display: flex;
     align-items: center;
@@ -78,7 +72,17 @@ nav ul.hide {
 main {
     text-align: center;
 }
-main section {
+
+/* hero banner*/
+.hero.hide {
+    display: none;
+}
+.hero img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+ection {
     background-color: #ffe0d6;
     padding: 1rem;
     margin: 1rem 2.5rem;
@@ -114,4 +118,12 @@ h2, h3, h4, h5, h6 {
 p, a {
     font-family: 'Montserrat';
     font-size: 1.3rem;
+}
+/*pancakes banner*/
+#pancakes {
+    text-align: center;
+    background-color:  #ffe0d6;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
