@@ -7,7 +7,7 @@ function toggleMenu() {
 let date = new Date();
 let day = date.getDay();
 
-if (day != 6) {
+if (day != 5) {
     document.getElementById("pancakes").style.display = "none";
 }
 

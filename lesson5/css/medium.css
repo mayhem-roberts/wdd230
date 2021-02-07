@@ -31,6 +31,13 @@
 .weatherSum p {
     font-size: 1rem;
 }
+/*forcast*/
+.forcast {
+    column-count: 5;
+	column-gap: 0;
+    padding: 1rem 0;
+    column-rule-style: solid;
+}
 /*fonts*/
     h1 {
     font-size: 5rem;
