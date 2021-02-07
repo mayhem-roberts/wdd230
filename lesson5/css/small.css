@@ -81,7 +81,9 @@ main {
     background-color: #ffe0d6;
     border-radius: 1rem;
 }
-
+.weatherSum p {
+    font-size: 1rem;
+}
 .hero img {
     max-width: 100%;
     width: 100%;
@@ -90,6 +92,8 @@ main {
 /*Forcast*/
 .forcast img {
     max-width: 100px;
+    width: 100%;
+    height: auto;
 }
 
 
