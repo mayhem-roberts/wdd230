@@ -23,17 +23,15 @@
 }
 .weatherSum {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 7%;
+    left: 5%;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.6);
 }
-/*forcast*/
-.forcast {
-    column-count: 5;
-	column-gap: 0;
-    padding: 1rem 0;
-    column-rule-style: solid;
+/*article*/
+.article img {
+    float: right;
+    padding: 1rem;
 }
 /*fonts*/
     h1 {

@@ -54,8 +54,8 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2); 
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: #ffe0d6;
 }
 
 nav ul li a:hover { 
@@ -90,10 +90,28 @@ main {
     height: auto;
 }
 /*Forcast*/
+.forcast {
+    column-count: 5;
+	column-gap: 0;
+    padding: 1rem 0;
+    column-rule-style: solid;
+}
 .forcast img {
     max-width: 100px;
     width: 100%;
     height: auto;
+}
+/*article*/
+.article {
+    background-color: #ffe0d6;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.article img {
+    width: 250px;
+}
+.article h3, .article p {
+    text-align: left;
 }
 
 
