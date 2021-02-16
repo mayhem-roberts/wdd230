@@ -17,7 +17,7 @@ function windChill(tempF, speed) {
   if (tempF < 50 && speed > 3) {
     f = 35.74 + 0.6215 * t - 35.75 * s + 0.4275 * t * s;
     f = Math.round(f);
-    return f + "&deg F";
+    return `${f}&deg F`;
   }
   else {
     message;
