@@ -1,3 +1,4 @@
+/*header and nav*/
 @media (min-width: 45em) {
 
     nav button {
@@ -39,4 +40,9 @@
     margin: 0;
     padding: 0;
     }
+
+/*Gallery page*/
+.gallery {
+    column-count: 2;
+}
 }

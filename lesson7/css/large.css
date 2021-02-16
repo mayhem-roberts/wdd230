@@ -6,4 +6,8 @@
     h1 {
         font-size: 7rem;
         }
+/*Gallery page*/
+.gallery {
+    column-count: 3;
+}       
 }

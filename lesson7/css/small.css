@@ -68,7 +68,7 @@ nav ul.hide {
     display: none;
 }
 
-/*main conyent*/
+/*main content*/
 main {
     text-align: center;
 }
@@ -114,6 +114,10 @@ main {
     text-align: left;
 }
 
+/*Gallery Page*/
+.gallery figure {
+    border: 4px solid black;
+} 
 
 /*footer*/
 footer{
