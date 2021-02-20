@@ -97,7 +97,7 @@ main {
     column-rule-style: solid;
 }
 .forcast img {
-    max-width: 100px;
+    max-width: 75px;
     width: 100%;
     height: auto;
 }
