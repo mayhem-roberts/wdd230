@@ -40,12 +40,13 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="hero">
-            <figure>
-                <img src="images/wdd230_image_franklinOriginal.jpg"  alt="hero banner"
-                    srcset="images/wdd230_image_small.png 200w,
-                    images/wdd230_image_medium.png 500w,
-                    images/wdd230_image_large.png 800wx">
-            </figure>    
+            <picture>
+                <source srcset="images/hero_1200.jpg" media="(min-width: 960px)" />
+                <source srcset="images/hero_800.jpg" media="(min-width: 600px)" />
+                <source srcset="images/hero_500.jpg" />
+                <img class="prestonHero" src="images/wdd230_image_franklinOriginal.jpg" alt="image of field" />
+            </picture>
+   
             <section class="weatherSum">
                 <h3>weather Summary</h3>
                 <p>Currently: <span id="currentWeather">Rainy</span></p>
@@ -92,3 +93,10 @@
     <script src="js/windChill.js"></script>
 </body>
 </html>
+
+<picture>
+    <source srcset="images/heroImgFranklin860.jpg" media="(min-width: 960px)" />
+    <source srcset="images/heroImgFranklin600.jpg" media="(min-width: 600px)" />
+    <source srcset="images/heroImgFranklin350.jpg" />
+    <img class="prestonHero" src="images/heroImgFranklin860.jpg" alt="image of field" />
+</picture>

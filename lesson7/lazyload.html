@@ -10,66 +10,23 @@
 <body>
     <h1>Lazy Loading</h1>
     <picture>
-        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
-        <img data-src="https://source.unsplash.com/featured/300x400/?water">
+        <img src="images/placeholder.jpg" alt="placeholder" img data-src="https://source.unsplash.com/featured/300x400/?water">
     </picture>
     <picture>
-        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
-        <img data-src="https://source.unsplash.com/featured/300x400/?dog">
+        <img src="images/placeholder.jpg" alt="placeholder" img data-src="https://source.unsplash.com/featured/300x400/?dog">
     </picture>
     <picture>
-        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
-        <img data-src="https://source.unsplash.com/featured/300x400/?city">
+        <img src="images/placeholder.jpg" alt="placeholder" img data-src="https://source.unsplash.com/featured/300x400/?city">
     </picture>
     <picture>
-        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
-        <img data-src="https://source.unsplash.com/featured/300x400/?mountains">
+        <img src="images/placeholder.jpg" alt="placeholder" img data-src="https://source.unsplash.com/featured/300x400/?mountains">
     </picture>
     <picture>
-        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
-        <img data-src="https://source.unsplash.com/featured/300x400/?red">
+        <img src="images/placeholder.jpg" alt="placeholder" img data-src="https://source.unsplash.com/featured/300x400/?red">
     </picture>
     <picture>
-        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
-        <img data-src="https://source.unsplash.com/featured/300x400/?kitten">
+        <img src="images/placeholder.jpg" alt="placeholder" data-src="https://source.unsplash.com/featured/300x400/?kitten">
     </picture>
-<script>
-let imagesToLoad = document.querySelectorAll('img[data-src]');
-
-const imgOptions = {
-  threshold: 0;
-  rootMargin: "opx, 0px, 50px, 0px"
-};
-
-const loadImages = (image) => {
-  image.setAttribute('src', image.getAttribute('data-src'));
-  image.onload = () => {
-    image.removeAttribute('data-src');
-  };
-};
-
-imagesToLoad.forEach((img) => {
-  loadImages(img);
-});
-
-if('IntersectionObserver' in window) {
-  const observer = new IntersectionObserver((items, observer) => {
-    items.forEach((item) => {
-      if(item.isIntersecting) {
-        loadImages(item.target);
-        observer.unobserve(item.target);
-      }
-    });
-  }, imgOptions);
-  imagesToLoad.forEach((img) => {
-    observer.observe(img);
-  });
-} else {
-  imagesToLoad.forEach((img) => {
-    loadImages(img);
-  });
-}
-
-</script>    
+<script src="js/lazyload.js"></script>    
 </body>
 </html>
