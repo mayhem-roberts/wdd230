@@ -4,14 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/lazyload.css"
+    <link rel="stylesheet" href="css/lazyload.css">
     <title>Lazy Loading</title>
 </head>
 <body>
     <h1>Lazy Loading</h1>
     <picture>
-        <img src="" alt="">
-        
+        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
+        <img data-src="https://source.unsplash.com/featured/300x400/?water">
     </picture>
+    <picture>
+        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
+        <img data-src="https://source.unsplash.com/featured/300x400/?dog">
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
+        <img data-src="https://source.unsplash.com/featured/300x400/?city">
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
+        <img data-src="https://source.unsplash.com/featured/300x400/?mountains">
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
+        <img data-src="https://source.unsplash.com/featured/300x400/?red">
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" alt="placeholder" width="300" height="400">
+        <img data-src="https://source.unsplash.com/featured/300x400/?kitten">
+    </picture>
+<script>
+let imagesToLoad = document.querySelectorAll('img[data-src]');
+const loadImages = (image) => {
+  image.setAttribute('src', image.getAttribute('data-src'));
+  image.onload = () => {
+    image.removeAttribute('data-src');
+  };
+};
+
+imagesToLoad.forEach((img) => {
+  loadImages(img);
+});
+
+if('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver((items, observer) => {
+    items.forEach((item) => {
+      if(item.isIntersecting) {
+        loadImages(item.target);
+        observer.unobserve(item.target);
+      }
+    });
+  });
+  imagesToLoad.forEach((img) => {
+    observer.observe(img);
+  });
+} else {
+  imagesToLoad.forEach((img) => {
+    loadImages(img);
+  });
+}
+
+</script>    
 </body>
 </html>
