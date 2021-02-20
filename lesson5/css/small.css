@@ -84,7 +84,7 @@ main {
 .weatherSum p {
     font-size: 1rem;
 }
-.hero figure img {
+.hero img {
     max-width: 100%;
     width: 100%;
     height: auto;
