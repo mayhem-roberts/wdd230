@@ -117,7 +117,6 @@ main {
 /*Gallery Page*/
 .gallery figure {
     margin-top: 0;
-    
 } 
 .gallery figure img {
     width: 100%;
@@ -128,6 +127,9 @@ main {
 }
 .gallery figure img[data-src] {
   filter: blur(0.2em);
+}
+.gallery figcaption {
+    margin: 1rem 0;
 }
 
 /*footer*/
