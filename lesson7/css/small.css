@@ -123,10 +123,13 @@ main {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: .3rem;
     filter: blur(0em);
-  transition: filter 0.5s;
+    transition: filter 0.5s;
 }
 .gallery figure img[data-src] {
   filter: blur(0.2em);
+}
+.gallery figure img:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .gallery figcaption {
     margin: 1rem 0;
