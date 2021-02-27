@@ -133,6 +133,8 @@ main {
 }
 .gallery figcaption {
     margin: 1rem 0;
+    font-family: 'Montserrat';
+    text-align: right;
 }
 
 /*footer*/
