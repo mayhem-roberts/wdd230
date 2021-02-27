@@ -133,7 +133,6 @@ main {
 }
 .gallery figcaption {
     margin: 1rem 0;
-    font-family: 'Montserrat';
     text-align: right;
 }
 
@@ -166,6 +165,10 @@ h2, h3, h4, h5, h6 {
 p, a {
     font-family: 'Montserrat';
     font-size: 1.3rem;
+}
+figcaption {
+    font-family: 'Montserrat';
+    font-size: .9rem;
 }
 /*pancakes banner*/
 #pancakes {
