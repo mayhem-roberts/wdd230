@@ -3,14 +3,16 @@
 table {
     box-shadow: 5px 10px 8px #628ca6;
     font-family: 'Ubuntu', sans-serif;
+    width: 375px;
+    height: 400px;
 }
 table, th, td{
-    border: 2px solid lightgrey;
+    border: 1.5px solid lightgrey;
     border-collapse: collapse;
     text-align: center;
 }
 th, td {
-    padding: .6rem;
+    padding: .5rem;
 }
 thead {
     font-size: 1.5rem;
