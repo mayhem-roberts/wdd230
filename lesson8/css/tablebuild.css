@@ -1,17 +1,32 @@
 /* #e7f0ed #e7ffed #628ca6 #7fb9c2 */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap');
-table, th, td{
-    border: 2px solid #e7f0ed;
-    border-collapse: collapse;
-    text-align: center;
+table {
+    box-shadow: 5px 10px 8px #628ca6;
     font-family: 'Ubuntu', sans-serif;
 }
+table, th, td{
+    border: 2px solid lightgrey;
+    border-collapse: collapse;
+    text-align: center;
+}
 th, td {
-    padding: .5rem;
+    padding: .6rem;
 }
 thead {
     font-size: 1.5rem;
+    background-color: #7fb9c2;
+}
+tbody tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+tbody tr:nth-child(odd) {
+    background-color: #e7ffed;
 }
 tfoot {
     font-size: .8rem;
+    background-color: #7fb9c2;
+}
+.highlight {
+    color: white;
+    background-color: #628ca6;
 }
