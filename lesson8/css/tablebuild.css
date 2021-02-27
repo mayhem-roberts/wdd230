@@ -1,0 +1,17 @@
+/* #e7f0ed #e7ffed #628ca6 #7fb9c2 */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap');
+table, th, td{
+    border: 2px solid #e7f0ed;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+th, td {
+    padding: .5rem;
+}
+thead {
+    font-size: 1.5rem;
+}
+tfoot {
+    font-size: .8rem;
+}
