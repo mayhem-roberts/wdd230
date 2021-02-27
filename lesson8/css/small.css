@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat&family=Raleway:wght@500&display=swap');
+body {
+    max-width: 95vw;
+    margin: auto;
+    background-color: seashell;
+    padding: 1rem;
+}
+header {
+    margin: 1rem 0;
+}
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    max-width: 125px;
+    width: 100%;
+    height: auto;
+    background-color: #d78c47;
+    border-radius: 100%;
+}
+#heading {
+    margin-left: 2.5rem;
+}
+#moto {
+    font-family: 'Montserrat';
+}
+
+/*navigation*/
+nav {
+    text-align: center;
+    background-color: #23583a;
+    font-family: 'Raleway';
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #ffe0d6;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #ffe0d6;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: #ffe0d6;
+}
+
+nav ul li a:hover { 
+    background-color: #d78c47;
+    color: black;
+    border-radius: 1rem;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/*main content*/
+main {
+    text-align: center;
+}
+
+/* hero banner*/
+.weatherSum {
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #ffe0d6;
+    border-radius: 1rem;
+}
+.weatherSum p {
+    font-size: 1rem;
+}
+.hero img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+/*Forcast*/
+.forcast {
+    column-count: 5;
+	column-gap: 0;
+    padding: 1rem 0;
+    column-rule-style: solid;
+}
+.forcast img {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+}
+/*article*/
+.article {
+    background-color: #ffe0d6;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.article img {
+    width: 250px;
+}
+.article h3, .article p {
+    text-align: left;
+}
+
+/*Gallery Page*/
+.gallery figure {
+    margin-top: 0;
+} 
+.gallery figure img {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: .3rem;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.gallery figure img[data-src] {
+  filter: blur(0.2em);
+}
+.gallery figure img:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.gallery figcaption {
+    margin: 1rem 0;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    background-color: #23583a;
+    color: #ffe0d6;
+    border-radius: 1rem;
+}
+footer p {
+    padding-top: .5rem;
+}
+footer a {
+    text-decoration: none;
+    color: #ffe0d6;
+}
+#currentDate {
+    font-family: 'Montserrat';
+    padding-bottom: .5rem;
+}
+/*fonts and text css*/
+h1 {
+    font-family: 'Concert One';
+    font-size: 4rem;
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Raleway';
+}
+p, a {
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+}
+/*pancakes banner*/
+#pancakes {
+    text-align: center;
+    background-color:  #ffe0d6;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}

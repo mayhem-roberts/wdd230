@@ -1,0 +1,23 @@
+body {
+    max-width: 960px;
+    margin: auto; 
+}
+h1 {
+  text-align: center;
+}
+picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem; 
+    justify-items: center;  
+}
+picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+picture img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  width: 300px;
+  height: 400px;
+}
