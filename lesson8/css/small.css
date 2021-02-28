@@ -150,19 +150,41 @@ form fieldset {
     margin: 2rem 0;
     border: 3px solid #d78c47;
     border-radius: 1rem;
-    padding: .5rem;
+    padding: 1.2rem;
 }
-form label.top, form div {
+form label.top{
     display: block;
     padding-top: .5rem;
     font-size: .8rem;
 }
-form label.top input, form label.top select {
+form label.top input, form label.top select, form textarea.top {
+    display: block;
     font-size: 1rem;
     border: 1px solid lightgrey;
     border-radius: .2rem;
     padding: .75rem;
     color: grey;
+    width: 90%;
+    max-width: 25rem;
+}
+form label.sbs {
+    padding: 0 .5rem ;
+    color: grey;
+}
+form div {
+    padding-top: 1rem;
+}
+form input.submitBtn {
+    font-family: 'Raleway';
+    font-size: 1.2rem;
+    color: white;
+    background-color: #d78c47;
+    border: none;
+    border-radius: 1rem;
+    padding: .75rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    max-width: 25rem;
 }
 
 /*footer*/

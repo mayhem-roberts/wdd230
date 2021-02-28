@@ -74,14 +74,18 @@
 
             <fieldset>
                 <legend>Additional Information</legend>
-                <div>Are you in danger?</div>
-                <label>Yes<input type="radio" name="danger" value="yes" ></label>
-                <label>Maybe<input type="radio" name="danger" value="maybe" ></label>
-                <label>No<input type="radio" name="danger" value="no" ></label>
-
+                <div>Are you in danger?
+                    <label class="sbs">Yes<input type="radio" name="danger" value="yes" ></label>
+                    <label class="sbs">Maybe<input type="radio" name="danger" value="maybe" ></label>
+                    <label class="sbs">No<input type="radio" name="danger" value="no" ></label>
+                </div>    
+                <div> Additional information and comments:
+                    <textarea class="top" rows="4" cols="50" name="comment" form="usrform">
+                    </textarea>
+                </div>
             </fieldset>
 
-            <input type="submit" value="submit">
+            <input class="submitBtn" type="submit" value="submit">
 
         </form>
     </main>
