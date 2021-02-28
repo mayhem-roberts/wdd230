@@ -173,6 +173,7 @@ form label.sbs {
 }
 form div {
     padding-top: 1rem;
+    color: grey;
 }
 form input.submitBtn {
     font-family: 'Raleway';
