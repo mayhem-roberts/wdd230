@@ -171,9 +171,6 @@ form label.sbs {
     padding: 0 .5rem ;
     color: grey;
 }
-form div {
-    padding-top: 1rem;
-}
 form input.submitBtn {
     font-family: 'Raleway';
     font-size: 1.2rem;
