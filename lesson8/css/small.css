@@ -135,6 +135,36 @@ main {
     margin: 1rem 0;
 }
 
+/* Storm Center*/
+form {
+    font-family: 'Montserrat';
+    text-align: left;
+}
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 3px solid #d78c47;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: .5rem;
+    font-size: .8rem;
+}
+form label.top input, form label.top select {
+    font-size: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: .2rem;
+    padding: .75rem;
+    color: grey;
+}
+
 /*footer*/
 footer{
     text-align: center;
@@ -164,6 +194,10 @@ h2, h3, h4, h5, h6 {
 p, a {
     font-family: 'Montserrat';
     font-size: 1.3rem;
+}
+figcaption {
+    font-family: 'Montserrat';
+    font-size: .9rem;
 }
 /*pancakes banner*/
 #pancakes {

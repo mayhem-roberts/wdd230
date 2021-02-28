@@ -35,7 +35,55 @@
         </nav>
     </header>
     <main>
-     
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <Legend>Personal Information</Legend>
+                <label class="top"><div>First Name*</div><input type="text" name="fname" required></label>
+                <label class="top"><div>Last Name*</div><input type="text" name="lname" required></label>
+                <label class="top"><div>Email</div><input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top"><div>Phone</div><input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top"><div>Zip Code</div><input type="number" name="zip_code"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top"><div>Storm Date</div><input type="date" name="the_date"></label>
+
+                <label class="top"><div>Storm Type</div>
+                <select name="stormtype">
+                    <option value="">--Please Select--</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Flash Flood">Flash Flood</option>
+                    <option value="Snow">Snow</option>
+                    <option value="Tornado">Tornado</option>
+                </select>  
+                </label>
+
+                <label class="top"><div>Storm Region</div>
+                <select name="stormregion">
+                    <option value="">--Please Select--</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option> 
+                </select>
+                </label>  
+                
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <div>Are you in danger?</div>
+                <label>Yes<input type="radio" name="danger" value="yes" ></label>
+                <label>Maybe<input type="radio" name="danger" value="maybe" ></label>
+                <label>No<input type="radio" name="danger" value="no" ></label>
+
+            </fieldset>
+
+            <input type="submit" value="submit">
+
+        </form>
     </main>
     <footer>
         <p>&copy; 2021 | Meagan Roberts | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
