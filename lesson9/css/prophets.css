@@ -1,0 +1,28 @@
+section {
+    border: 3px solid black;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 100%;
+    margin: auto;
+}
+.cards img {
+    width: 90%;
+}
+
+
+@media (min-width: 35em) {
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 60rem) {
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
