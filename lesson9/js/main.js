@@ -15,10 +15,11 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    //console.table(jsonObject);  // temporary checking for valid response and data parsing
+
     const towns = jsonObject['towns'];
 
-    const cards = document.querySelector('.cards'); //html output div class cards
+    //html output div class cards
+    const cards = document.querySelector('.cards'); 
 
     towns.forEach(town => {
         let card = document.createElement('section');
@@ -28,11 +29,12 @@ fetch(requestURL)
         let p = document.createElement('p');
         let img = document.createElement('img');
 
-        if (town.name == "Preston" || town.name == "Fish Haven" || town.name == "Soda Springs") {
+        //loop through JSON to find and display certain towns
+        if (town.name == "Preston" || town.name == "Fish Haven" || town.name == "Soda Springs") { 
             h1.innerHTML = `${town.name}`;
             h2.innerHTML = `${town.motto}`;
             p.innerHTML = `Year Founded: ${town.yearFounded} <br> Population: ${towns.currentPopulation} <br> Annual Rain Fall: ${towns.averageRainfall}`;
-            img.setAttribute('src', '/lesson9/images/' + town.photo);
+            img.setAttribute('src', 'images/' + town.photo);
                 
             card.append(h1, h2, p, div)
             div.append(img)
