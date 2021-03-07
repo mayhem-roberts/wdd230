@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat&family=Raleway:wght@500&display=swap');
 body {
-    max-width: 95vw;
-    margin: auto;
     background-color: seashell;
     padding: 1rem;
 }
@@ -71,6 +69,8 @@ nav ul.hide {
 /*main content*/
 main {
     text-align: center;
+    margin: 0 auto;
+    max-width: 95vw;
 }
 
 /* hero banner*/
