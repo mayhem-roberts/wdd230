@@ -1,5 +1,5 @@
 /*header and nav*/
-@media (min-width: 45em) {
+@media (min-width: 40em) {
 
     nav button {
         display: none;
@@ -17,36 +17,46 @@
     header img {
         max-width: 150px;
     }
-
-    /* hero banner*/
-.hero {
-    position: relative;
-}
-.weatherSum {
-    position: absolute;
-    top: 7%;
-    left: 5%;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.6);
-}
-/*article*/
-.article img {
-    float: right;
-    padding: 1rem;
-}
-/*fonts*/
-    h1 {
-    font-size: 5rem;
-    margin: 0;
-    padding: 0;
+    /*Home Page*/ 
+    .cards section {
+        display: flex;
+        flex-direction: row;
+    }
+    .cards section:nth-child(2) {
+        flex-direction: row-reverse;
     }
 
-/*Gallery page*/
-.gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.gallery figure img:hover {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
+    /* hero banner*/
+    .hero {
+        position: relative;
+    }
+
+    /*Town Pages*/
+    .weatherSum {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+    /*article*/
+    .article img {
+        float: right;
+        padding: 1rem;
+    }
+    /*fonts*/
+        h1 {
+        font-size: 5rem;
+        margin: 0;
+        padding: 0;
+        }
+
+    /*Gallery page*/
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery figure img:hover {
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
 }

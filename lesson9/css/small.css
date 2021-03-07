@@ -118,6 +118,21 @@ main {
 .cards h1 {
     font-size: 2.5rem;
 }
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.cards section {
+    background-color: #ffe0d6;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.cards img {
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+}
 
 /*Gallery Page*/
 .gallery figure {

@@ -36,8 +36,8 @@ fetch(requestURL)
             p.innerHTML = `Year Founded: ${town.yearFounded} <br> Population: ${towns.currentPopulation} <br> Annual Rain Fall: ${towns.averageRainfall}`;
             img.setAttribute('src', 'images/' + town.photo);
                 
-            card.append(h1, h2, p, div)
-            div.append(img)
+            card.append(div, img)
+            div.append(h1, h2, p)
             cards.append(card)
         }
     });     
