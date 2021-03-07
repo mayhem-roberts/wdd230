@@ -114,6 +114,11 @@ main {
     text-align: left;
 }
 
+/*Home Page*/
+.cards h1 {
+    font-size: 2.5rem;
+}
+
 /*Gallery Page*/
 .gallery figure {
     margin-top: 0;
