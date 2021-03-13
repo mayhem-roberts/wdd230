@@ -25,6 +25,18 @@
     .cards section:nth-child(2) {
         flex-direction: row-reverse;
     }
+    .poem {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-content: center;
+    }
+    .poem div {
+        padding-right: 2rem;
+    }
+    .poem p {
+        padding-left: 2rem;
+    }
 
     /* hero banner*/
     .hero {

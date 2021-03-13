@@ -133,6 +133,12 @@ main {
     height: auto;
     margin: auto;
 }
+.poem {
+    border-top: 3px solid #d78c47;
+    border-bottom: 3px solid #d78c47;
+    margin-bottom: 1rem;
+}
+.poem h2 {font-size: 2rem;}
 
 /*Gallery Page*/
 .gallery figure {
