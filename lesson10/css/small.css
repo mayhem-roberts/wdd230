@@ -90,14 +90,14 @@ main {
     height: auto;
 }
 /*Forcast*/
-.forcast {
+section .prestonForecast {
     column-count: 5;
 	column-gap: 0;
     padding: 1rem 0;
     column-rule-style: solid;
 }
-.forcast img {
-    max-width: 100px;
+.prestonForecast img {
+    max-width: 75px;
     width: 100%;
     height: auto;
 }
