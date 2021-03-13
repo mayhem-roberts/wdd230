@@ -1,3 +1,7 @@
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=370e73cb3b7a4111b9e28b6e29d837cc&units=imperial';
+
+
+
 //get value of temp and speed
 let tempF = 34
 let speed = 12
