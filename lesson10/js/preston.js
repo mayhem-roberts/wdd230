@@ -70,6 +70,6 @@ fetch(apiforecast)
         document.querySelector(`#day${i+1}`).textContent = days[date.getDay()];
         document.querySelector(`#img${i+1}`).setAttribute('src', image);
         document.querySelector(`#img${i+1}`).setAttribute('alt', description + 'image');
-        document.querySelector(`#temp${i+1}`).innerHTML = (forecast[i].main.temp).toFixed(0); 
+        document.querySelector(`#temp${i+1}`).innerHTML = (`${(forecast[i].main.temp).toFixed(0)}&deg F`); 
       };
   });
