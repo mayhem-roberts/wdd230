@@ -67,7 +67,7 @@ fetch(apiforecast)
         let image = 'https://openweathermap.org/img/w/' + forecast[i].weather[0].icon + '.png';
         let description = forecast[i].weather.description;
 
-        document.getElementById(`day${i+1}`).textContent = days[date.getDay()];
+        document.getElementById(`day${i+1}`).innerHTML = days[date.getDay()];
         document.getElementById(`img${i+1}`).setAttribute('src', image);
         document.getElementById(`img${i+1}`).setAttribute('alt', description + 'image');
         document.getElementById(`temp${i+1}`).innerHTML = (`${(forecast[i].main.temp).toFixed(0)}&deg F`); 
