@@ -35,6 +35,7 @@ fetch(requestURL)
             h2.innerHTML = `${town.motto}`;
             p.innerHTML = `Year Founded: ${town.yearFounded} <br> Population: ${towns.currentPopulation} <br> Annual Rain Fall: ${towns.averageRainfall}`;
             img.setAttribute('src', 'images/' + town.photo);
+            img.setAttribute('alt', town.name + ' image');
                 
             card.append(div, img)
             div.append(h1, h2, p)
