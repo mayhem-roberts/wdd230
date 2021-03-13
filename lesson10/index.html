@@ -36,7 +36,12 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/pexels-pixabay-325944.jpg" alt="">
+            <picture>
+                <source srcset="images/preston_1100.jpg" media="(min-width: 960px)" />
+                <source srcset="images/preston_800.jpg" media="(min-width: 600px)" />
+                <source srcset="images/preston_500.jpg"/>
+                <img class="prestonHero" src="images/pexels-pixabay-325944.jpg" alt="Sunny Field" />
+            </picture>
         </div>
         <div class="cards"></div>
         <section class="poem">
