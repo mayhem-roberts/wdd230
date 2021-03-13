@@ -37,10 +37,9 @@ fetch(apiURL)
         return message;
       }
     }
-
   });
 
   // Forecast
 
-  
+ 
 
