@@ -1,10 +1,24 @@
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=370e73cb3b7a4111b9e28b6e29d837cc&units=imperial';
 
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
 
+    const weather = document.querySelector('#weather')
+    weather.textContent = jsObject.weather[0].main;
+    const temperature = document.querySelector('#tempF')
+    temperature.textContent = jsObject.main.temp;
+    const humidity = document.querySelector('#humidity')
+    humidity.textContent = jsObject.main.humidity;
+    const windSpeed = document.querySelector('#speed')
+    windSpeed.textContent = jsObject.wind.speed;
+
+  });
 
 //get value of temp and speed
-let tempF = 34
-let speed = 12
+let tempF = parseFloat(document.getElementById('tempF').value);
+let speed = parseFloat(document.getElementById('speed').value);
 //call windChill function and store in windchill var
 let windchill = windChill(tempF, speed);
 //output windchill
