@@ -10,25 +10,25 @@ if (day != 5) {
 
 //preston weather
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=370e73cb3b7a4111b9e28b6e29d837cc&units=imperial';
+const apiWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=370e73cb3b7a4111b9e28b6e29d837cc&units=imperial';
 
-fetch(apiURL)
+fetch(apiWeather)
   .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject);
+  .then((weatherObject) => {
+    console.log(weatherObject);
 
     let weather = document.getElementById('weather')
-    weather.innerHTML = jsObject.weather[0].description;
+    weather.innerHTML = weatherObject.weather[0].description;
     let temperature = document.getElementById('tempF')
-    temperature.innerHTML = `${parseFloat(jsObject.main.temp).toFixed(0)}&deg F`;
+    temperature.innerHTML = `${parseFloat(weatherObject.main.temp).toFixed(0)}&deg F`;
     let humidity = document.getElementById('humidity')
-    humidity.innerHTML = `${jsObject.main.humidity}%`;
+    humidity.innerHTML = `${weatherObject.main.humidity}%`;
     let windSpeed = document.getElementById('speed')
-    windSpeed.innerHTML = `${parseFloat(jsObject.wind.speed).toFixed(1)} mph`;
+    windSpeed.innerHTML = `${parseFloat(weatherObject.wind.speed).toFixed(1)} mph`;
 
     //get value of temp and speed
-    let tempF = parseFloat(jsObject.main.temp);
-    let speed = parseFloat(jsObject.wind.speed);
+    let tempF = parseFloat(weatherObject.main.temp);
+    let speed = parseFloat(weatherObject.wind.speed);
     //call windChill function and store in windchill var
     let windchill = windChill(tempF, speed);
     document.getElementById("windChill").innerHTML = windchill; 
