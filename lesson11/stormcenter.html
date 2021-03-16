@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idaho Chill - Storm Center</title>
+    <meta name="description" content="Idaho Chill's storm center allows users to fill out and submit a report on storms or unusual weather in their area.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat&family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="mainHeader">
+            <img src="images/iconfinder_sun_4677537_1.png" alt="Sun Logo">
+            <div id="heading">    
+                <h1>Idaho Chill</h1>
+                <div id="moto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            </div>
+        </section>
+        <nav>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="navigation" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li class="active"><a href="#">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="stormform" method="get" action="thanks.html">
+            <fieldset>
+                <Legend>Personal Information</Legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Email<input type="email" name="email" placeholder="example@gmail.com"></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="3335552222"></label>
+                <label class="top">Zip Code<input type="number" name="zip_code"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date<input type="date" name="the_date"></label>
+
+                <label class="top">Storm Type
+                <select name="stormtype">
+                    <option value="">--Please Select--</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Flash Flood">Flash Flood</option>
+                    <option value="Snow">Snow</option>
+                    <option value="Tornado">Tornado</option>
+                </select>  
+                </label>
+
+                <label class="top">Storm Region
+                <select name="stormregion">
+                    <option value="">--Please Select--</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option> 
+                </select>
+                </label>  
+                
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <div>Are you in danger?
+                    <label class="sbs">Yes<input type="radio" name="danger" value="yes" ></label>
+                    <label class="sbs">Maybe<input type="radio" name="danger" value="maybe" ></label>
+                    <label class="sbs">No<input type="radio" name="danger" value="no" ></label>
+                </div>    
+                <label class="top"> Additional information and comments:
+                    <textarea class="top" rows="4" cols="50" name="comment" form="stormform">
+                    </textarea>
+                </label>
+            </fieldset>
+
+            <input class="submitBtn" type="submit" value="submit">
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2021 | Meagan Roberts | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+    <div id="currentDate"></div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

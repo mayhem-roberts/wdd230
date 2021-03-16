@@ -1,0 +1,28 @@
+@media (min-width: 60rem) {
+    header img {
+        max-width: 200px;
+    }
+    /*fonts*/
+    h1 {
+        font-size: 7rem;
+    }
+
+    /*Home Page*/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cards section {
+        display: flex;
+        flex-direction: column;
+    }
+    .cards section:nth-child(2) {
+        flex-direction: column;
+    }
+
+    /*Gallery page*/
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }       
+}
