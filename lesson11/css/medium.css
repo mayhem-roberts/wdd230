@@ -59,4 +59,16 @@
     .gallery figure img:hover {
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
+    /*footer*/
+    .siteInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .siteInfo div {
+        text-align: left;
+    }
+    .siteInfo img {
+        max-width: 300px;
+    }
 }

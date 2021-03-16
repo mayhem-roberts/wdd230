@@ -2,6 +2,8 @@
 body {
     background-color: seashell;
     padding: 1rem;
+    max-width: 80vw;
+    margin: auto;
 }
 header {
     margin: 1rem 0;
@@ -210,6 +212,7 @@ footer{
     background-color: #23583a;
     color: #ffe0d6;
     border-radius: 1rem;
+    margin-top: 2rem;
 }
 footer p {
     padding-top: .5rem;
@@ -221,6 +224,16 @@ footer a {
 #currentDate {
     font-family: 'Montserrat';
     padding-bottom: .5rem;
+}
+/*footer*/
+.siteInfo {
+    padding: 2rem;
+}
+.siteInfo img {
+    max-width: 300px;
+}
+.siteInfo h2 {
+    border-bottom: 3px solid #ffe0d6;
 }
 /*fonts and text css*/
 h1 {
