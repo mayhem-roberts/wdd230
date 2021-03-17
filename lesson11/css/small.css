@@ -131,7 +131,7 @@ section .prestonForecast {
     margin: 1rem;
 }
 .cards img {
-    max-width: 400px;
+    max-width: 325px;
     height: auto;
     margin: auto;
 }
