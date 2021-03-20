@@ -125,7 +125,8 @@ section .prestonForecast {
     grid-template-columns: 1fr;
 }
 .cards section {
-    background-color: #ffe0d6;
+    background-color: #23583a;
+    color: #ffe0d6;
     border-radius: 1rem;
     padding: 1rem;
     margin: 1rem;
