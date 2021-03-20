@@ -33,7 +33,7 @@ fetch(requestURL)
         if (town.name == "Preston" || town.name == "Fish Haven" || town.name == "Soda Springs") { 
             h1.innerHTML = `${town.name}`;
             h2.innerHTML = `${town.motto}`;
-            p.innerHTML = `Year Founded: ${town.yearFounded} <br> Population: ${towns.currentPopulation} <br> Annual Rain Fall: ${towns.averageRainfall}`;
+            p.innerHTML = `Year Founded: ${town.yearFounded} <br> Population: ${town.currentPopulation} <br> Annual Rain Fall: ${town.averageRainfall}`;
             img.setAttribute('src', 'images/' + town.photo);
                 
             card.append(div, img)
