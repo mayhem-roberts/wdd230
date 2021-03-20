@@ -64,7 +64,7 @@ fetch(apiforecast)
       };
   });
 
-// 
+// events
 
 const requestEvent = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
@@ -75,17 +75,14 @@ fetch(requestEvent)
   .then((eventObject) => {
 
     const towns = eventObject['towns'];
-
-    //html output div class events
     const events = document.querySelector('.events'); 
-
     const fishHaven = towns[2].events
 
     fishHaven.forEach(element => {
 
       let p = document.createElement('p');
       
-      p.innerHTML = element
+      p.innerHTML = "- " + element
 
       events.append(p)
     });

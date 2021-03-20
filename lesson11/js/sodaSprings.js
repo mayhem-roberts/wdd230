@@ -75,17 +75,14 @@ fetch(requestEvent)
   .then((eventObject) => {
 
     const towns = eventObject['towns'];
-
-    //html output div class events
     const events = document.querySelector('.events'); 
-
     const sodaSprings = towns[0].events
 
     sodaSprings.forEach(element => {
 
       let p = document.createElement('p');
       
-      p.innerHTML = element
+      p.innerHTML = "- " + element
 
       events.append(p)
     });

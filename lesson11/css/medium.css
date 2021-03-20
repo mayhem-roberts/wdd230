@@ -46,7 +46,7 @@
     /*article*/
     .article img {
         float: right;
-        padding: 1rem;
+        margin: 1rem;
     }
     /*events*/
     .eventBox {
