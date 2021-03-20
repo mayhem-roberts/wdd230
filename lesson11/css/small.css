@@ -125,6 +125,7 @@ section .forecast {
     background-color: #23583a;
     border-radius: 1rem;
     color: #ffe0d6;
+    padding: 1rem;
 }
 .eventBox h3 {
     border-bottom: 3px solid #ffe0d6;
