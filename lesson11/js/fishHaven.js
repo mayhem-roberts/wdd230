@@ -1,16 +1,6 @@
-//Preston js
+//fish haven weather
 
-// pancakes
-let date = new Date();
-let day = date.getDay();
-
-if (day != 5) {
-    document.getElementById("pancakes").style.display = "none";
-}
-
-//preston weather
-
-const apiWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=370e73cb3b7a4111b9e28b6e29d837cc&units=imperial';
+const apiWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&APPID=370e73cb3b7a4111b9e28b6e29d837cc&units=imperial';
 
 fetch(apiWeather)
   .then((response) => response.json())
@@ -52,7 +42,7 @@ fetch(apiWeather)
   });
 
 //forecast
-const apiforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=22b3edccab117440bdc47835f3f06a5e&units=imperial';
+const apiforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&APPID=22b3edccab117440bdc47835f3f06a5e&units=imperial';
 
 fetch(apiforecast)
   .then((response) => response.json())
@@ -89,9 +79,9 @@ fetch(requestEvent)
     //html output div class events
     const events = document.querySelector('.events'); 
 
-    const preston = towns[6].events
+    const fishHaven = towns[2].events
 
-    preston.forEach(element => {
+    fishHaven.forEach(element => {
 
       let p = document.createElement('p');
       
