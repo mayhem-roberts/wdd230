@@ -90,6 +90,7 @@ main {
     max-width: 100%;
     width: 100%;
     height: auto;
+    margin: 1rem 0;
 }
 /*Forcast*/
 section .prestonForecast {
@@ -135,6 +136,10 @@ section .prestonForecast {
     max-width: 325px;
     height: auto;
     margin: auto;
+}
+.poem {
+    border: 3px solid #d78c47;
+    margin: 2rem 3rem;
 }
 
 /*Gallery Page*/
@@ -213,7 +218,7 @@ footer{
     background-color: #23583a;
     color: #ffe0d6;
     border-radius: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 footer p {
     padding-top: .5rem;

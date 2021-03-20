@@ -25,10 +25,14 @@
     .cards section:nth-child(2) {
         flex-direction: row-reverse;
     }
+    .poem {
+        margin: 3rem 8rem;
+    }
 
     /* hero banner*/
     .hero {
         position: relative;
+        margin: 2rem 0;
     }
 
     /*Town Pages*/
