@@ -118,6 +118,11 @@ section .forecast {
     text-align: left;
 }
 
+/*events*/
+.events {
+    
+}
+
 /*Home Page*/
 .cards h1 {
     font-size: 2.5rem;
