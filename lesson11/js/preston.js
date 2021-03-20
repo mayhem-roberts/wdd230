@@ -91,7 +91,7 @@ fetch(requestEvent)
     preston.forEach(element => {
       let p = document.createElement('p');
       
-      p.innerHTML = element
+      p.innerHTML = "- " + element
 
       events.append(p)
     });

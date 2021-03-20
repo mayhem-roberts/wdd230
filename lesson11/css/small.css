@@ -32,7 +32,8 @@ nav {
     text-align: center;
     background-color: #23583a;
     font-family: 'Raleway';
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     border-radius: 1rem;
 }
 nav button {
@@ -107,20 +108,25 @@ section .forecast {
 /*article*/
 .article {
     border: 3px solid #d78c47;
-    border-radius: 1rem;
     padding: 2rem;
     margin: 2rem 0;
 }
 .article img {
-    width: 250px;
+    max-width: 100%;
+    border-radius: 1rem;
 }
 .article h3, .article p {
     text-align: left;
 }
 
 /*events*/
-.events {
-    
+.eventBox {
+    background-color: #23583a;
+    border-radius: 1rem;
+    color: seashell;
+}
+.eventBox h3 {
+    border-bottom: 3px solid seashell;
 }
 
 /*Home Page*/
@@ -244,7 +250,7 @@ footer a {
 .siteInfo img {
     max-width: 300px;
 }
-.siteInfo h2 {
+.siteInfo h3 {
     border-bottom: 3px solid #ffe0d6;
 }
 /*fonts and text css*/
@@ -254,6 +260,12 @@ h1 {
 }
 h2, h3, h4, h5, h6 {
     font-family: 'Raleway';
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2rem;
 }
 p, a {
     font-family: 'Montserrat';

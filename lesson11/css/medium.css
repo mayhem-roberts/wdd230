@@ -48,6 +48,16 @@
         float: right;
         padding: 1rem;
     }
+    /*events*/
+    .eventBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .events {
+        text-align: left;
+    }
     /*fonts*/
         h1 {
         font-size: 5rem;
