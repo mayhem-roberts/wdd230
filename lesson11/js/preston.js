@@ -85,14 +85,10 @@ fetch(requestEvent)
   .then((eventObject) => {
 
     const towns = eventObject['towns'];
-
-    //html output div class events
     const events = document.querySelector('.events'); 
-
     const preston = towns[6].events
 
     preston.forEach(element => {
-
       let p = document.createElement('p');
       
       p.innerHTML = element

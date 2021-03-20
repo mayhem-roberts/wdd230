@@ -93,22 +93,23 @@ main {
     margin: 1rem 0;
 }
 /*Forcast*/
-section .prestonForecast {
+section .forecast {
     column-count: 5;
 	column-gap: 0;
     padding: 1rem 0;
     column-rule-style: solid;
 }
-.prestonForecast img {
+.forecast img {
     max-width: 75px;
     width: 100%;
     height: auto;
 }
 /*article*/
 .article {
-    background-color: #ffe0d6;
+    border: 3px solid #d78c47;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
+    margin: 2rem 0;
 }
 .article img {
     width: 250px;
