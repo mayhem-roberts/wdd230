@@ -113,7 +113,8 @@ section .forecast {
 }
 .article img {
     max-width: 100%;
-    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: .3rem;
 }
 .article h3, .article p {
     text-align: left;
@@ -123,10 +124,10 @@ section .forecast {
 .eventBox {
     background-color: #23583a;
     border-radius: 1rem;
-    color: seashell;
+    color: #ffe0d6;
 }
 .eventBox h3 {
-    border-bottom: 3px solid seashell;
+    border-bottom: 3px solid #ffe0d6;
 }
 
 /*Home Page*/
