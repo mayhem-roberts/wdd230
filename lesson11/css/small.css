@@ -150,6 +150,7 @@ section .forecast {
     max-width: 325px;
     height: auto;
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .poem {
     border: 3px solid #d78c47;
@@ -251,6 +252,7 @@ footer a {
 }
 .siteInfo img {
     max-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .siteInfo h3 {
     border-bottom: 3px solid #ffe0d6;
