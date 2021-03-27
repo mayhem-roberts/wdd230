@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat&family=Raleway:wght@500&display=swap');
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&family=Roboto:wght@300&display=swap');
+html {
     max-width: 960px;
     margin: auto;
     background-color: white;
@@ -8,7 +8,7 @@ body {
 nav {
     text-align: center;
     background-color: black;
-    font-family: 'Raleway';
+    font-family: 'Lato';
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
@@ -43,6 +43,19 @@ nav ul li a:hover {
 nav ul.hide {
     display: none;
 }
+
+.headings div {
+    border: 3px dashed black;
+    max-width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
+.heading-type {
+    border-bottom: 3px solid black;
+}
+.paragraph p {
+    margin: 2rem;
+}
 footer{
     text-align: center;
     background-color: black;
@@ -52,16 +65,16 @@ footer a {
     text-decoration: none;
     color: whitesmoke;
 }
-h1 {
-    font-family: 'Concert One';
+h1, h5, h6 {
+    font-family: 'Lato';
 }
-h2, h3, h4, h5, h6 {
-    font-family: 'Raleway';
+h2, h3, h4 {
+    font-family: 'Libre Baskerville';
 }
 p, a {
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     font-size: 1.3rem;
 }
 #dateUpdated {
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
 }

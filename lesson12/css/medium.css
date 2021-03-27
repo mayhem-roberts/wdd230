@@ -11,4 +11,13 @@
     nav ul.hide {
         display: flex;
     }
+
+    .headings {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .headings div {
+        width: 100%;
+    }
 }
