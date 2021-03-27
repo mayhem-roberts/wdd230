@@ -11,7 +11,8 @@
     nav ul.hide {
         display: flex;
     }
-
+    
+    /*typography*/
     .headings {
         display: flex;
         flex-direction: row;

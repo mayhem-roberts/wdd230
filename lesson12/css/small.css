@@ -44,18 +44,6 @@ nav ul.hide {
     display: none;
 }
 
-.headings div {
-    border: 3px dashed black;
-    max-width: 100%;
-    margin: 1rem;
-    padding: 1rem;
-}
-.heading-type {
-    border-bottom: 3px solid black;
-}
-.paragraph p {
-    margin: 2rem;
-}
 footer{
     text-align: center;
     background-color: black;
@@ -77,4 +65,22 @@ p, a {
 }
 #dateUpdated {
     font-family: 'Roboto';
+}
+/*color scheme*/
+.color-image img {
+    width: 100%;
+}
+
+/*typography*/
+.headings div {
+    border: 3px dashed black;
+    max-width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
+.heading-type {
+    border-bottom: 3px solid black;
+}
+.paragraph p {
+    margin: 2rem;
 }
