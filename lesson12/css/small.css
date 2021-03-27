@@ -51,7 +51,7 @@ footer{
 }
 footer a {
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
 }
 h1, h5, h6 {
     font-family: 'Lato';
@@ -59,7 +59,7 @@ h1, h5, h6 {
 h2, h3, h4 {
     font-family: 'Libre Baskerville';
 }
-p, a {
+p, a, li{
     font-family: 'Roboto';
     font-size: 1.3rem;
 }
@@ -80,6 +80,29 @@ p, a {
     height: auto;
     padding: 1rem;
 }
+
+/*target audience*/
+.personas div {
+    max-width: 400px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f7f4f3;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.personas img {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+.scenarios {
+    border: 3px solid #cde4e4;
+    margin: 2rem;
+    padding: 2rem;
+}
+
 /*color scheme*/
 .color-image img {
     width: 100%;

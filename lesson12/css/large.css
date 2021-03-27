@@ -8,5 +8,11 @@
     .site-info div {
         margin-left: 2rem;
     }
+    /*target audience*/
+    .personas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    } 
 
 }
