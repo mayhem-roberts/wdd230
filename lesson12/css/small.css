@@ -67,10 +67,16 @@ p, a {
     font-family: 'Roboto';
 }
 /*home*/
+.site-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+}
 .logo {
     background-color: #df8768;
     border-radius: .8rem;
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
     padding: 1rem;
 }
@@ -100,4 +106,19 @@ p, a {
 }
 .paragraph p {
     margin: 2rem;
+}
+
+/*wireframes*/
+
+.wireframe {
+    margin: 2rem;
+}
+.wireframe img {
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+}
+.wireframe h2 {
+    padding-bottom: 1rem;
+    border-bottom: 3px dashed #df8768;
 }
