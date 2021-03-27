@@ -1,4 +1,4 @@
-@media (min-width: 32.5em) {
+@media (min-width: 37.5em) {
     nav button {
         display: none;
     }
@@ -11,7 +11,7 @@
     nav ul.hide {
         display: flex;
     }
-    
+
     /*typography*/
     .headings {
         display: flex;
