@@ -7,16 +7,15 @@ html {
 /*navigation*/
 nav {
     text-align: center;
-    background-color: black;
+    background-color: #00707A;
     font-family: 'Lato';
-    margin-top: 2rem;
     margin-bottom: 3rem;
 }
 nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: whitesmoke;
+    color: white;
 }
 nav ul {
     list-style-type: none;
@@ -25,19 +24,19 @@ nav ul {
 }
 nav ul li a {
     display: block;
-    padding: .8rem 2%;
+    padding: 1.5rem 2%;
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.4); 
-    color: darkgrey;
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white;
 }
 
 nav ul li a:hover { 
-    background-color: darkgrey;
-    color: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
 }
 
 nav ul.hide {
@@ -46,8 +45,8 @@ nav ul.hide {
 
 footer{
     text-align: center;
-    background-color: black;
-    color: whitesmoke;
+    background-color: #00707A;
+    color: white;
 }
 footer a {
     text-decoration: none;
@@ -70,16 +69,25 @@ p, a {
 .color-image img {
     width: 100%;
 }
+.colors {
+    margin: 2rem;
+    border-top: 3px dashed #ffb399;
+}
+.colors div {
+    border-bottom: 3px dashed #ffb399;
+}
 
 /*typography*/
 .headings div {
-    border: 3px dashed black;
+    background-color: #ffb399;
+    border-radius: .8rem;
     max-width: 100%;
     margin: 1rem;
     padding: 1rem;
 }
 .heading-type {
-    border-bottom: 3px solid black;
+    border-bottom: 3px dashed #df8768;
+    padding-bottom: .5rem;
 }
 .paragraph p {
     margin: 2rem;
