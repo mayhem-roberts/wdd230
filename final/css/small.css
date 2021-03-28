@@ -66,7 +66,7 @@ h1, h5, h6 {
 h2, h3, h4 {
     font-family: 'Libre Baskerville';
 }
-p, a, li{
+p, a, li, #currentDate {
     font-family: 'Roboto';
     font-size: 1.3rem;
 }
