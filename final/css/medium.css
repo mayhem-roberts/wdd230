@@ -1,0 +1,19 @@
+@media (min-width: 37.5em) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 auto;
+    }
+    nav ul.hide {
+        display: flex;
+    }
+}    
