@@ -12,6 +12,7 @@ nav {
     align-items: center;
     text-align: center;
     background-color: #00707A;
+    background-image: linear-gradient(to right, #00707a , #60a9a9);
     font-family: 'Lato';
     margin-bottom: 3rem;
     padding: 1.5rem;
@@ -54,6 +55,7 @@ nav ul.hide {
 footer{
     text-align: center;
     background-color: #00707A;
+    background-image: linear-gradient(to right, #00707a , #60a9a9);
     color: white;
 }
 footer a {
@@ -69,4 +71,29 @@ h2, h3, h4 {
 p, a, li, #currentDate {
     font-family: 'Roboto';
     font-size: 1.3rem;
+}
+
+/* ------- home page ------- */
+.local-ad div {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.local-ad img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    align-self: center;
+}
+.home-grid img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+.purpose {
+    background-color: #f7f4f3;
+}
+.join {
+    background-color: #f7f4f3;
 }
