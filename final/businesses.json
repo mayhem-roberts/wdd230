@@ -1,0 +1,68 @@
+{
+    "businesses": [
+        {
+            "name": "Idaho Orthodontics",
+            "logo": "idortho.jpg",
+            "address": "625 E Alameda, Pocatello ID 83201",
+            "phone": "208.237.0005",
+            "website": "idortho.com",
+            "info": "Dr. Jeff McMinn, MDM & Dr. Taylor Brown, MDM"
+        },
+        {
+            "name": "Soda Shak",
+            "logo": "sodashak.jpg",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "info": ""
+        },
+        {
+            "name": "Alpine Animal Hospital",
+            "logo": "alpine.jpg",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "info": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "info": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "info": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "info": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "info": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "info": ""
+        }
+    ]
+}
