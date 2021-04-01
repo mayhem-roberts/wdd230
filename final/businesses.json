@@ -5,32 +5,32 @@
             "logo": "idortho.jpg",
             "address": "625 E Alameda, Pocatello ID 83201",
             "phone": "208.237.0005",
-            "website": "idortho.com",
+            "website": "www.idortho.com",
             "info": "Dr. Jeff McMinn, MDM & Dr. Taylor Brown, MDM"
         },
         {
-            "name": "Soda Shak",
+            "name": "SodaShak",
             "logo": "sodashak.jpg",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "info": ""
+            "address": "4155 Yellowstone Ave, Chubbuck ID 83202",
+            "phone": "208.680.9894",
+            "website": "Instagram: @sodashak.co",
+            "info": "Today is a good day to have a good day!"
         },
         {
             "name": "Alpine Animal Hospital",
             "logo": "alpine.jpg",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "info": ""
+            "address": "293 E Linden Ave, Chubbuck ID 83202",
+            "phone": "208.237.1111",
+            "website": "www.alpineanimal.net",
+            "info": "Steve Haymore, DVM & K. Seth Lundquist, DVN"
         },
         {
-            "name": "",
-            "logo": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "info": ""
+            "name": "McKee's Feed Garden & Pet Center",
+            "logo": "mckees.jpg",
+            "address": "130 Evans Ln, Chubbuck ID 83202",
+            "phone": "208.237.9326",
+            "website": "www.mckeespets.com",
+            "info": "Your Local Family Store!"
         },
         {
             "name": "",
