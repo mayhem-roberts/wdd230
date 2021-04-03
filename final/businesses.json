@@ -1,12 +1,20 @@
 {
     "businesses": [
         {
-            "name": "Idaho Orthodontics",
-            "logo": "idortho.jpg",
-            "address": "625 E Alameda, Pocatello ID 83201",
-            "phone": "208.237.0005",
-            "website": "www.idortho.com",
-            "info": "Dr. Jeff McMinn, MDM & Dr. Taylor Brown, MDM"
+            "name": "Alpine Animal Hospital",
+            "logo": "alpine.jpg",
+            "address": "293 E Linden Ave, Chubbuck ID 83202",
+            "phone": "208.237.1111",
+            "website": "www.alpineanimal.net",
+            "info": "Steve Haymore, DVM & K. Seth Lundquist, DVN"
+        },
+        {
+            "name": "Connection's Credit Union",
+            "logo": "connections.png",
+            "address": "1150N 8th Ave, Pocatello ID 83201",
+            "phone": "208.233.5544",
+            "website": "www.connectidaho.org",
+            "info": "Credit Union for You!"
         },
         {
             "name": "SodaShak",
@@ -17,14 +25,6 @@
             "info": "Today is a good day to have a good day!"
         },
         {
-            "name": "Alpine Animal Hospital",
-            "logo": "alpine.jpg",
-            "address": "293 E Linden Ave, Chubbuck ID 83202",
-            "phone": "208.237.1111",
-            "website": "www.alpineanimal.net",
-            "info": "Steve Haymore, DVM & K. Seth Lundquist, DVN"
-        },
-        {
             "name": "McKee's Feed Garden & Pet Center",
             "logo": "mckees.jpg",
             "address": "130 Evans Ln, Chubbuck ID 83202",
@@ -33,12 +33,12 @@
             "info": "Your Local Family Store!"
         },
         {
-            "name": "",
-            "logo": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "info": ""
+            "name": "Idaho Orthodontics",
+            "logo": "idortho.png",
+            "address": "625 E Alameda, Pocatello ID 83201",
+            "phone": "208.237.0005",
+            "website": "www.idortho.com",
+            "info": "Dr. Jeff McMinn, MDM & Dr. Taylor Brown, MDM"
         },
         {
             "name": "",

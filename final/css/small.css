@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: #00707A;
+    background-color: #00707a;
     background-image: linear-gradient(to right, #00707a , #60a9a9);
     font-family: 'Lato';
     margin-bottom: 3rem;
@@ -96,4 +96,16 @@ p, a, li, #currentDate {
 }
 .join {
     background-color: #f7f4f3;
+}
+
+/* ------- directory ------- */
+.cards section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 3px solid #60a9a9;
+}
+.cards img {
+    max-width: 300px;
+    height: auto;
 }

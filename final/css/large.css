@@ -1,3 +1,8 @@
 @media (min-width: 60.5em) {
-    
+    /* ------- directory ------- */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+    }
 }
