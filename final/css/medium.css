@@ -38,10 +38,17 @@
         grid-column: 1/3;
         grid-row: 1/3;
         margin-top: 5rem;
+        margin-right: 0;
     }
     .join {
         grid-column: 1/3;
         grid-row: 3/4;
         margin-bottom: 5rem;
+        margin-right: 0;
+    }
+    .for-evs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }    

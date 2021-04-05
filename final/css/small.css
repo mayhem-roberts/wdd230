@@ -72,6 +72,9 @@ p, a, li, #currentDate {
     font-family: 'Roboto';
     font-size: 1.3rem;
 }
+img {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
 
 /* ------- home page ------- */
 .local-ad div {
@@ -90,24 +93,41 @@ p, a, li, #currentDate {
     width: 100%;
     height: auto;
     max-width: 600px;
+    padding: 0;
 }
 .purpose {
     background-color: #f7f4f3;
+    padding: 1rem;
+    margin: 0 2rem;
 }
 .join {
     background-color: #f7f4f3;
+    padding: 1rem;
+    margin: 0 2rem;
+}
+.forecast-box {
+    text-align: center;
+    background-color: #df8768;
+    border-radius: .8rem;
+    padding: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 section .forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 1rem 0;
+    gap: 2rem;
 }
-
 .forecast img {
     max-width: 75px;
     width: 100%;
     height: auto;
 }
+.forecast div {
+    padding: 2rem;
+    background-color: white;
+}
+
 
 /* ------- directory ------- */
 .cards section {
