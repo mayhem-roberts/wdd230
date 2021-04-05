@@ -56,4 +56,14 @@
        display: flex;
        flex-direction: row;
    }
+   .ref-page img {
+       max-width: 200px;
+   }
+
+   /* ------- contact page ------- */
+   .map-box {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+   }
 }   

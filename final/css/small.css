@@ -72,9 +72,6 @@ p, a, li, #currentDate {
     font-family: 'Roboto';
     font-size: 1.3rem;
 }
-img {
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-}
 
 /* ------- home page ------- */
 .local-ad div {
@@ -88,12 +85,14 @@ img {
     height: auto;
     max-width: 350px;
     align-self: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .home-grid img {
     width: 100%;
     height: auto;
     max-width: 600px;
     padding: 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .purpose {
     background-color: #f7f4f3;
@@ -140,3 +139,5 @@ section .forecast {
     max-width: 300px;
     height: auto;
 }
+
+/* ------- contact page ------- */
