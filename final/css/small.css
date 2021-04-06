@@ -36,7 +36,7 @@ nav ul li a {
     display: block;
     padding: .2rem 1vw;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: white;
 }
 nav ul li.active a { 
@@ -72,12 +72,25 @@ p, a, li, #currentDate {
     font-family: 'Roboto';
     font-size: 1.3rem;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* ------- home page ------- */
+.local-ad {
+    border-top: 3px dashed #df8768;
+    border-bottom: 3px dashed #df8768;
+    padding: 2rem 0;
+}
 .local-ad div {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    background-color: #cde4e4;
+    border-radius: 1rem;
+    margin: 1rem;
 }
 .local-ad img {
     border-radius: 50%;
@@ -86,6 +99,10 @@ p, a, li, #currentDate {
     max-width: 350px;
     align-self: center;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.local-ad a:hover {
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
 }
 .home-grid img {
     width: 100%;
@@ -107,7 +124,7 @@ p, a, li, #currentDate {
 .forecast-box {
     text-align: center;
     background-color: #df8768;
-    border-radius: .8rem;
+    border-radius: 1rem;
     padding: 1rem;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
