@@ -121,18 +121,33 @@ a {
     padding: 1rem;
     margin: 0 2rem;
 }
+.for-evs {
+    background-color: #cde4e4;
+    margin-bottom: 5rem;
+    padding: 1.5rem;
+}
+.events {
+    background-color: white;
+    padding: 1rem 2rem;
+}
 .forecast-box {
     text-align: center;
-    background-color: #df8768;
+    background-color: white;
+    border: 3px dashed #ffb399;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 0 2rem;
+    margin: 1rem;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-section .forecast {
+.forecast-box h3 {
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    border-bottom: 3px solid #df8768;
+}
+.forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1rem 0;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 .forecast img {
     max-width: 75px;
@@ -140,7 +155,7 @@ section .forecast {
     height: auto;
 }
 .forecast div {
-    padding: 2rem;
+    padding: 1rem;
     background-color: white;
 }
 
