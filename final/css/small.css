@@ -57,6 +57,7 @@ footer{
     background-color: #00707A;
     background-image: linear-gradient(to right, #00707a , #60a9a9);
     color: white;
+    margin-top: 2rem;
 }
 footer a {
     text-decoration: none;
@@ -196,6 +197,7 @@ a {
     text-align: center;
     border-top: 3px dashed #df8768;
     border-bottom: 3px dashed #df8768;
+    margin-bottom: 4rem;
 }
 .board-box h2 {
     padding: 1rem;
@@ -213,6 +215,9 @@ a {
     flex-direction: column;
     justify-content: center;
     margin: 2rem 1rem;
+}
+.map-box h2 {
+    border-bottom: 3px dashed #df8768;
 }
 .map-box iframe {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
