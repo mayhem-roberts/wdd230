@@ -20,6 +20,7 @@
     .local-ad {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 0;
     }
     .home-grid {
         display: grid;
@@ -46,7 +47,13 @@
         margin-bottom: 5rem;
         margin-right: 0;
     }
-    .for-evs {
+    .events-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .info {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;

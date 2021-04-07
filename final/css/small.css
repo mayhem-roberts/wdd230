@@ -82,6 +82,7 @@ a {
     border-top: 3px dashed #df8768;
     border-bottom: 3px dashed #df8768;
     padding: 2rem 0;
+    margin-bottom: 3rem;
 }
 .local-ad div {
     padding: 1.5rem;
@@ -121,14 +122,32 @@ a {
     padding: 1rem;
     margin: 0 2rem;
 }
-.for-evs {
-    background-color: #cde4e4;
-    margin-bottom: 5rem;
+.events-box {
+    border: 3px solid #00707a;
+    margin: 2rem 1rem;
+    padding: 2rem;
+}
+.events-box img {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+.events h2 {
+    text-align: left;
+    border-bottom: 3px solid #00707a;
+}
+.events div {
+    text-align: right;
+}
+.info {
+    background-color: #f7f4f3;
+    margin: 5rem 0;
     padding: 1.5rem;
 }
-.events {
+.social {
     background-color: white;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
 }
 .forecast-box {
     text-align: center;
