@@ -224,6 +224,9 @@ a {
     width: 100%;
 }
 /* ------- join ------- */
+#joinform {
+    margin: 0 2rem;
+}
 form {
     font-family: 'Roboto';
     text-align: left;
@@ -251,13 +254,19 @@ form label.top input, form label.top select, form textarea.top {
     border: 1px solid lightgrey;
     border-radius: .2rem;
     padding: .75rem;
-    color: grey;
+    color: darkgrey;
     width: 90%;
     max-width: 25rem;
 }
+form input:required {
+    background-color: hsla(353, 81%, 51%, .2);
+}
 form label.sbs {
-    padding: 0 .5rem ;
-    color: grey;
+    padding: .5rem ;
+    color: black;
+}
+form label.sbs input {
+    padding: .5rem;
 }
 form input.submitBtn {
     font-family: 'Lato';
