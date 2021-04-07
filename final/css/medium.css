@@ -58,6 +58,36 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    /* ------- directory ------- */
+    .cards section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    button.list {
+        display: inline;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: black;
+        padding: 1rem;
+    }
+    div#switch.cards.list {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 5rem;
+    }
+    div#switch.cards.list section {
+        margin: 1rem 0;
+    }
+    .directory-head {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
     /* ------- ref ------- */
    .ref-page div {
        display: flex;

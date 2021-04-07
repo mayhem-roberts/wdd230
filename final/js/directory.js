@@ -1,3 +1,9 @@
+// grid and list button
+function toggleGrid() {
+  document.getElementById("switch").classList.toggle("list");
+}
+
+//Json
 const requestJSON = 'businesses.json';
 
 fetch(requestJSON)

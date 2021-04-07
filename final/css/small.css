@@ -23,7 +23,7 @@ nav img {
 nav button {
     background-color: transparent;
     border: none;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: white;
     padding: 1rem;
 }
@@ -181,15 +181,30 @@ a {
 
 
 /* ------- directory ------- */
+.cards {
+    background-color: #f7f4f3;
+    padding: 1rem;
+}
 .cards section {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: 3px solid #60a9a9;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
 }
 .cards img {
     max-width: 300px;
     height: auto;
+}
+button.list {
+    display: none;
+}
+.directory-head {
+    text-align: center;
+    border-top: 3px dashed #df8768;
+    border-bottom: 3px dashed #df8768;
 }
 
 /* ------- contact page ------- */
