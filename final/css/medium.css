@@ -73,4 +73,13 @@
        flex-direction: row;
        justify-content: space-evenly;
    }
+   .map-box iframe {
+       align-self: center;
+       width: 50%;
+   }
+   .board {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+   }
 }   

@@ -33,41 +33,46 @@
                 <h2>Contact infomation</h2>
                 <p>555 Yellowstone Ave, Chubbuck ID 83202<br>555.888.9900<br>www.chubbuckchamber.com</p>
                 <div>
-                    <fieldset>
-                        <legend>Contact Us</legend>
-                        <label class="top">Name*<input type="text" name="name" required></label>
-                        <label class="top">Email<input type="email" name="email" placeholder="example@gmail.com"></label>
-                        <label class="top">Phone<input type="tel" name="phone" placeholder="3335552222"></label>
-                        <label class="top">Comments:
-                            <textarea class="top" rows="4" cols="50" name="comment" form="stormform">
-                            </textarea>
-                        </label>
-                    </fieldset>
+                    <form id="contactform" method="get" action="thanks.html">
+                        <fieldset>
+                            <legend>Contact Us</legend>
+                            <label class="top">Name*<input type="text" name="name" required></label>
+                            <label class="top">Email<input type="email" name="email" placeholder="example@gmail.com"></label>
+                            <label class="top">Phone<input type="tel" name="phone" placeholder="3335552222"></label>
+                            <label class="top">Comments:
+                                <textarea class="top" rows="4" cols="50" name="comment" form="stormform">
+                                </textarea>
+                            </label>
+                            <input class="submitBtn" type="submit" value="submit">
+                        </fieldset>
+                    </form>
                 </div>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23372.353190974867!2d-112.48611158955974!3d42.92465404076551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535514ef8820b119%3A0x23dd60cc4e76da99!2sChubbuck%2C%20ID%2083202!5e0!3m2!1sen!2sus!4v1617410444698!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>   
         </section>
-        <section class="board">
+        <section class="board-box">
             <h2>Board of directors</h2>
-            <div>
-                <img src="" alt="" loading="lazy">
-                <h3>Mallory Dawson</h3>
-                <p>Board Chair</p>
-            </div>
-            <div>
-                <img src="" alt="" loading="lazy">
-                <h3>Jonathan Young</h3>
-                <p>Vice Chair</p>
-            </div>
-            <div>
-                <img src="" alt="" loading="lazy">
-                <h3>Matther Martinez</h3>
-                <p>Secretary</p>
-            </div>
-            <div>
-                <img src="" alt="" loading="lazy">
-                <h3>Cathrine Taylor</h3>
-                <p>Treasurer</p>
+            <div class="board">
+                <div>
+                    <img src="images/belly-waw-q2TWKixKyrY-unsplash.jpg" alt="business woman" loading="lazy">
+                    <h3>Mallory Dawson</h3>
+                    <p>Board Chair</p>
+                </div>
+                <div>
+                    <img src="images/etty-fidele-VNYCIbZju0o-unsplash.jpg" alt="business man" loading="lazy">
+                    <h3>Jonathan Young</h3>
+                    <p>Vice Chair</p>
+                </div>
+                <div>
+                    <img src="images/itay-verchik-wK8zm2vkKXA-unsplash.jpg" alt="business man" loading="lazy">
+                    <h3>Matther Martinez</h3>
+                    <p>Secretary</p>
+                </div>
+                <div>
+                    <img src="images/linkedin-sales-solutions-4nu1d0HYwAg-unsplash.jpg" alt="business woman" loading="lazy">
+                    <h3>Cathrine Taylor</h3>
+                    <p>Treasurer</p>
+                </div>
             </div>
         </section>
     </main>
