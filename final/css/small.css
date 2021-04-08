@@ -244,6 +244,9 @@ button.list {
 #joinform {
     margin: 0 2rem;
 }
+#joinform h2 {
+    text-align: center;
+}
 form {
     font-family: 'Roboto';
     text-align: left;
