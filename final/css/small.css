@@ -343,3 +343,10 @@ form input.submitBtn {
 .memberships h3 {
     border-bottom: 3px dashed #df8768;
 }
+
+.ref-page div {
+    padding: 1rem;
+}
+.ref-page img {
+    background-color: black;
+}
