@@ -1,8 +1,28 @@
 @media (min-width: 60.5em) {
+
+    .purpose p {
+        font-size: 2rem;
+    }
     /* ------- directory ------- */
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: .5rem;
+    }
+    button.list {
+        display: inline;
+        background-color: transparent;
+        border: none;
+        font-size: 2rem;
+        color: black;
+        padding: 1rem;
+    }
+    div#switch.cards.list {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 5rem;
+    }
+    div#switch.cards.list section {
+        margin: 1rem 0;
     }
 }
