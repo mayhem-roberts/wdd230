@@ -15,7 +15,7 @@ nav {
     background-image: linear-gradient(to right, #00707a , #60a9a9);
     font-family: 'Lato';
     margin-bottom: 3rem;
-    padding: 1.5rem;
+    padding: .5rem;
 }
 nav img {
     max-width: 200px;
@@ -25,7 +25,7 @@ nav button {
     border: none;
     font-size: 2rem;
     color: white;
-    padding: 1rem;
+    padding: .5rem;
 }
 nav ul {
     list-style-type: none;
@@ -76,6 +76,9 @@ p, a, li, #currentDate {
 a {
     text-decoration: none;
     color: black;
+}
+.thanks {
+    text-align: center;
 }
 
 /* ------- home page ------- */
@@ -255,7 +258,7 @@ form legend {
     margin: 0 1rem;
     padding: 0 .5rem;
     font-family: 'Lato';
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 form fieldset {
     margin: 2rem 0;
@@ -282,11 +285,11 @@ form input:required {
     background-color: hsla(353, 81%, 51%, .2);
 }
 form label.sbs {
-    padding: .5rem ;
+    padding: .5rem;
     color: black;
 }
 form label.sbs input {
-    padding: .5rem;
+    padding: 1rem;
 }
 form input.submitBtn {
     font-family: 'Lato';
@@ -300,4 +303,9 @@ form input.submitBtn {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 100%;
     max-width: 25rem;
+}
+.memberships {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 }
