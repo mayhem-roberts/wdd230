@@ -41,20 +41,20 @@
             "info": "Dr. Jeff McMinn, MDM & Dr. Taylor Brown, MDM"
         },
         {
-            "name": "",
-            "logo": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "info": ""
+            "name": "Outer Limits Fun Zone",
+            "logo": "OuterLimits.png",
+            "address": "1800 Garrett Way, Pocatello ID 83201",
+            "phone": "208.232.7529",
+            "website": "www.outerlimitsfunzone.com",
+            "info": "Don't stay home, GET IN THE ZONE!"
         },
         {
-            "name": "",
-            "logo": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "info": ""
+            "name": "Geraldine's Bake Shoppe & Deli",
+            "logo": "geraldines.jpg",
+            "address": "3160 East 17th St, Chubbuck ID 83202",
+            "phone": "208.552.7057",
+            "website": "www.geraldinesbakery.com",
+            "info": "Sandwiches, soups and desserts"
         }        
     ]
 }
