@@ -73,6 +73,10 @@ p, a, li, #currentDate {
     font-family: 'Roboto';
     font-size: 1.3rem;
 }
+figcaption {
+    font-family: 'Roboto';
+    font-size: .9rem;
+}
 a {
     text-decoration: none;
     color: black;
@@ -183,7 +187,28 @@ a {
     padding: 1rem;
     background-color: white;
 }
-
+/* ------- chubbuck ------- */
+.article1 {
+    margin: 1rem;
+    padding: 1rem;
+    border: 3px solid #cde4e4;
+    border-radius: 1rem;
+}
+.article1 div {
+    align-self: center;
+}
+.article1 img{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.article1 h3 {
+    padding-bottom: .5rem;
+    border-bottom: 3px dashed #df8768;
+}
+.demos {
+    text-align: center;
+    padding: 1rem 3rem;
+    background-color: #f7f4f3;
+}
 
 /* ------- directory ------- */
 .cards {
